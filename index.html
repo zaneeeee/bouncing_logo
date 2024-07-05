@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<svg 
-  version="1.1" 
-  id="Layer_1" 
-  xmlns="http://www.w3.org/2000/svg" 
-  xmlns:xlink="http://www.w3.org/1999/xlink" 
+<svg
+	version="1.1" 
+	id="Layer_1" 
+	xmlns="http://www.w3.org/2000/svg" 
+	xmlns:xlink="http://www.w3.org/1999/xlink" 
 	viewBox="0 0 512 225" 
-  xml:space="preserve"
-  height="6rem"
-  style="position: fixed"
+	xml:space="preserve"
+	height="6rem"
+	style="position: fixed"
 >
   <path d="M333.2,17.06c8.29,0,16.57-0.03,24.86,0.03c1.1,0.01,2.38,0.2,3.24,0.8c1.89,1.3,4.01,1.11,6.04,1.27
     c6.55,0.53,13.12,0.79,19.67,1.39c4.15,0.38,8.25,1.21,12.39,1.74c3.13,0.4,6.28,0.55,9.41,0.95c2.01,0.26,3.99,0.78,5.99,1.16
@@ -113,7 +113,7 @@
   function loop() {
     const hRange = window.innerWidth - Logo.clientWidth
     const vRange = window.innerHeight - Logo.clientHeight
-    const time = performance.now() * 0.6 //speed
+    const time = performance.now() * 0.4 //speed
 
     const x = Math.abs((time % (hRange * 2)) - hRange)
     Logo.style.left = `${x}px`
